@@ -1,0 +1,38 @@
+Author: Courtney Stuart
+Organization: Green Lab (PI: Dr. Stephanie Green), University of Alberta
+Date: November 3, 2021
+
+---- RUN SETTNGS ----
+Graphab Version 2.6.3
+Project: Subadult_Gray_Snapper_10m
+
+Landscape map: Z:\Courtney\Stuart_MSc_Ch2\GIS_Files\Subadult_Gray_Snapper_Binary_HSM_10m.tif
+Patch connexity: 8-connexity
+Habitat patch codes: 1
+No data: -32768
+Minimum patch area: 0.01
+Simplify patch for planar area: Yes
+
+Landscape map metadata
+Raster cell resolution: 10 x 10 m
+Coordinate system: NAD83 / Florida East (EPSG:26958)
+Linear unit: meters (m)
+
+Linkset name: Least_Cost_Planar_links
+Topology: Planar
+Ignore links cross patch: Yes
+Save real path: Yes
+Distance: Cost from raster file
+Raster file: Z:\Courtney\Stuart_MSc_Ch2\GIS_Files\Subadult_Gray_Snapper_Cost_10m.tif
+Impedance: Cumulative cost
+
+Cost map metadata
+Raster cell resolution: 10 x 10 m
+Coordinate system: NAD83 / Florida East (EPSG:26958)
+Linear unit: meters (m)
+
+Graph: Graph_10km_Dispersal
+Link set: Least_Cost_Planar
+Pruning: Maximum Distance
+Maximum Distance: 78526.5 cost units (10000 meters)
+
