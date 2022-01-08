@@ -1,0 +1,27 @@
+Column,Description
+OID,Null object ID column written upon export from ArcGIS
+Site,Name of coral restoration site
+Data_Source,Source for coordinates of coral restoration site
+Selected_Iconic_Reef,Selected for restoration (yes/no)
+LON_M,Longitude of site in meters referenced to NAD_1983_StatePlane_Florida_East_FIPS_0901 (EPSG 26958)
+LAT_M,Latitude of site in meters referenced to NAD_1983_StatePlane_Florida_East_FIPS_0901 (EPSG 26958)
+Id,ID of the node in which this site falls in the species' minimum planar graph
+Area,Area of the node in which this site falls in the species' minimum planar graph
+Perimeter,Perimeter of the node in which this site falls in the species' minimum planar graph
+Capacity,Capacity (defined as the surface area weighted by mean habitat suitability) of the node in which this site falls in the species' minimum planar graph
+IF_d####,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph where #### represents the species' maximum dispersal distance in cost units
+Aggregate_Reef,Percent cover of aggregate reef habitat in the node in which this site falls in the species' minimum planar graph
+Artificial,Percent cover of artificial habitat in the node in which this site falls in the species' minimum planar graph
+Individual_or_Aggregated_Patch_Reef,Percent cover of patch reef habitat in the node in which this site falls in the species' minimum planar graph
+Mangrove,Percent cover of mangrove habitat in the node in which this site falls in the species' minimum planar graph
+Pavement,Percent cover of pavement habitat in the node in which this site falls in the species' minimum planar graph
+Reef_Rubble,Percent cover of reef rubble habitat in the node in which this site falls in the species' minimum planar graph
+Ridge,Percent cover of ridge habitat in the node in which this site falls in the species' minimum planar graph
+Scattered_Coral_Rock_in_Unconsolidated_Sediment,Percent cover of scattered coral and rock habitat in the node in which this site falls in the species' minimum planar graph
+Seagrass_Continuous,Percent cover of continuous seagrass habitat in the node in which this site falls in the species' minimum planar graph
+Seagrass_Discontinuous,Percent cover of discontinuous seagrass habitat in the node in which this site falls in the species' minimum planar graph
+Unconsolidated_Sediment,Percent cover of unconsolidated sediment in the node in which this site falls in the species' minimum planar graph
+Mean_Seagrass_Dist,Mean Euclidean distance (meters) from the nearest continuous seagrass patch to the node in which this site falls in the species' minimum planar graph
+Std_Seagrass_Dist,Standard deviation of the mean Euclidean distance (meters) from the nearest continuous seagrass patch to the node in which this site falls in the species' minimum planar graph
+Mean_Mangrove_Dist,Mean Euclidean distance (meters) from the nearest mangrove patch to the node in which this site falls in the species' minimum planar graph
+Std_Mangrove_Dist,Standard deviation of the mean Euclidean distance (meters) from the nearest mangrove patch to the node in which this site falls in the species' minimum planar graph
