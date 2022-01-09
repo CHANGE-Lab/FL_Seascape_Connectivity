@@ -1,0 +1,24 @@
+Column,Description
+OID,Null object ID (ignore)
+Id,Node ID
+Area,Surface area of node (square meters)
+Perimeter,Perimeter of node (meters)
+Capacity,Capacity of node (defined as the surface area of the node weighted by its mean habitat suitability for the species)
+IF_d####,Interaction Flux local connectivity value of the node where #### represents the equivalent of the species' 10 kilometer maximum dispersal distance in cost units
+Shape_Length,Perimeter of node (meters) [duplicate]
+Shape_Area,Surface area of node (square meters) [duplicate]
+Aggregate_Reef,Percent cover of aggregate reef habitat in the node
+Artificial,Percent cover of artificial habitat in the node
+Individual_or_Aggregated_Patch_Reef,Percent cover of patch reef habitat in the node
+Mangrove,Percent cover of mangrove habitat in the node
+Pavement,Percent cover of pavement habitat in the node
+Reef_Rubble,Percent cover of reef rubble habitat in the node
+Ridge,Percent cover of ridge habitat in the node
+Scattered_Coral_Rock_in_Unconsolidated_Sediment,Percent cover of scattered coral and rock habitat in the node
+Seagrass_Continuous,Percent cover of continuous seagrass habitat in the node
+Seagrass_Discontinuous,Percent cover of discontinuous seagrass habitat in the node
+Unconsolidated_Sediment,Percent cover of unconsolidated sediment in the node
+Mean_Seagrass_Dist,Mean Euclidean distance (meters) from the nearest continuous seagrass patch to the node
+Std_Seagrass_Dist,Standard deviation of the mean Euclidean distance (meters) from the nearest continuous seagrass patch to the node
+Mean_Mangrove_Dist,Mean Euclidean distance (meters) from the nearest mangrove patch to the node
+Std_Mangrove_Dist,Standard deviation of the mean Euclidean distance (meters) from the nearest mangrove patch to the node
