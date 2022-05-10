@@ -1,4 +1,4 @@
-"Species","Site","Selected_Iconic_Reef","LON_M","LAT_M","Node_ID","IF_5km","Rank_5km","IF_10km","Rank_10km","IF_15km","Rank_15km"
+"Species","Site","Selected_Iconic_Reef","LON_M","LAT_M","Id","IF_5km","Rank_5km","IF_10km","Rank_10km","IF_15km","Rank_15km"
 "Lutjanus griseus","Looe","Yes",158763.6915,23562.1383999996,21144,480622600871.121,14,6372906878508.65,10,20556280589212.3,8
 "Lutjanus griseus","New Found Harbor","Yes",160213.9312,31225.5774000008,20483,31296524230447.4,1,49865211798654.6,1,59296126899626.3,3
 "Lutjanus griseus","Sombrero","Yes",188822.7902,32400.1227000002,20618,5737537932126.21,2,42839357150839.7,2,75563584733647.8,1

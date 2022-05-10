@@ -1,0 +1,13 @@
+Column,Description
+Species,Focal species
+Site,Name of coral restoration site
+Selected_Iconic_Reef,Selected for restoration (yes/no)
+LON_M,Longitude of site (meters) referenced to NAD_1983_StatePlane_Florida_East_FIPS_0901 (EPSG 26958)
+LAT_M,Latitude of site (meters) referenced to NAD_1983_StatePlane_Florida_East_FIPS_0901 (EPSG 26958)
+Id,ID of the node in which this site falls in the species' minimum planar graph
+IF_5km,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 5 km; where 5 km translates to 25761.9 cost units for sub-adult gray snapper and 17164.8 cost units for sub-adult bluestriped grunt.
+Rank_5km,Ranking of site according to the local Interaction Flux value calculated assuming a dispersal threshold of 5 km; where 5 km translates to 25761.9 cost units for sub-adult gray snapper and 17164.8 cost units for sub-adult bluestriped grunt.
+IF_10km,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 10 km; where 10 km translates to 78526.5 cost units for sub-adult gray snapper and 50898.8 cost units for sub-adult bluestriped grunt.
+Rank_10km,Ranking of site according to the local Interaction Flux value calculated assuming a dispersal threshold of 10 km; where 10 km translates to 78526.5 cost units for sub-adult gray snapper and 50898.8 cost units for sub-adult bluestriped grunt.
+IF_15km,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 15 km; where 15 km translates to 150716.0 cost units for sub-adult gray snapper and 96128.0 cost units for sub-adult bluestriped grunt.
+Rank_15km,Ranking of site according to the local Interaction Flux value calculated assuming a dispersal threshold of 15 km; where 15 km translates to 150716.0 cost units for sub-adult gray snapper and 96128.0 cost units for sub-adult bluestriped grunt.

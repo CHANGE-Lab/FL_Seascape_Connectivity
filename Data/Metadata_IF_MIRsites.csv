@@ -1,0 +1,66 @@
+Column,Full Column Name,Description
+OID,OID,Null object ID column (ignore)
+TARGET_FID,TARGET_FID,Target ID for spatial join (ignore)
+Site,Site,Name of coral restoration site
+Data_Sourc,Data_Source,Source for coordinates of coral restoration site
+Selected_I,Selected_Iconic_Reef,Selected for restoration (yes/no)
+LON_M,LON_M,Longitude of site (meters) referenced to NAD_1983_StatePlane_Florida_East_FIPS_0901 (EPSG 26958)
+LAT_M,LAT_M,Latitude of site (meters) referenced to NAD_1983_StatePlane_Florida_East_FIPS_0901 (EPSG 26958)
+Id,Id,ID of the node in which this site falls in the species' minimum planar graph
+Area,Area,Area of the node (square meters) in which this site falls in the species' minimum planar graph
+Perimeter,Perimeter,Perimeter of the node (meters) in which this site falls in the species' minimum planar graph
+Capacity,Capacity,Capacity (defined as the node surface area weighted by its mean habitat suitability for the species) of the node in which this site falls in the species' minimum planar graph
+IF_d####,IF_d####_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph where #### represents the equivalent of the species' 10 kilometer maximum dispersal distance in cost units; 78526.5 for sub-adult gray snapper and 50898.8 for sub-adult bluestriped grunt.
+IF_d0_p0,IF_d0_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 0 cost units.
+IF_d5000,IF_d5000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 5000 cost units.
+IF_d1000,IF_d10000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 10000 cost units.
+IF_d1500,IF_d15000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 15000 cost units.
+IF_d2000,IF_d20000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 20000 cost units.
+IF_d2500,IF_d25000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 25000 cost units.
+IF_d3000,IF_d30000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 30000 cost units.
+IF_d3500,IF_d35000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 35000 cost units.
+IF_d4000,IF_d40000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 40000 cost units.
+IF_d4500,IF_d45000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 45000 cost units.
+IF_d5001,IF_d50000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 50000 cost units.
+IF_d5500,IF_d55000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 55000 cost units.
+IF_d6000,IF_d60000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 60000 cost units.
+IF_d6500,IF_d65000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 65000 cost units.
+IF_d7000,IF_d70000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 70000 cost units.
+IF_d7500,IF_d75000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 75000 cost units.
+IF_d8000,IF_d80000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 80000 cost units.
+IF_d8500,IF_d85000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 85000 cost units.
+IF_d9000,IF_d90000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 90000 cost units.
+IF_d9500,IF_d95000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 95000 cost units.
+IF_d1001,IF_d100000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 100000 cost units.
+IF_d1050,IF_d105000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 105000 cost units.
+IF_d1100,IF_d110000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 110000 cost units.
+IF_d1150,IF_d115000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 115000 cost units.
+IF_d1200,IF_d120000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 120000 cost units.
+IF_d1250,IF_d125000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 125000 cost units.
+IF_d1300,IF_d130000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 130000 cost units.
+IF_d1350,IF_d135000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 135000 cost units.
+IF_d1400,IF_d140000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 140000 cost units.
+IF_d1450,IF_d145000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 145000 cost units.
+IF_d1501,IF_d150000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 150000 cost units.
+IF_d1550,IF_d155000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 155000 cost units.
+IF_d1600,IF_d160000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 160000 cost units.
+IF_d1650,IF_d165000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 165000 cost units.
+IF_d1700,IF_d170000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 170000 cost units.
+IF_d1750,IF_d175000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 175000 cost units.
+IF_d1800,IF_d180000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 180000 cost units.
+IF_d1850,IF_d185000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 185000 cost units.
+IF_d1900,IF_d190000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 190000 cost units.
+IF_d1950,IF_d195000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 195000 cost units.
+IF_d2001,IF_d200000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 200000 cost units.
+IF_d2050,IF_d205000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 205000 cost units.
+IF_d2100,IF_d210000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 210000 cost units.
+IF_d2150,IF_d215000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 215000 cost units.
+IF_d2200,IF_d220000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 220000 cost units.
+IF_d2250,IF_d225000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 225000 cost units.
+IF_d2300,IF_d230000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 230000 cost units.
+IF_d2350,IF_d235000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 235000 cost units.
+IF_d2400,IF_d240000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 240000 cost units.
+IF_d2450,IF_d245000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 245000 cost units.
+IF_d2501,IF_d250000_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph assuming a dispersal threshold of 250000 cost units.
+IF_d####,IF_d####_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph where #### represents the equivalent of the species' 5 kilometer maximum dispersal distance in cost units; 25761.9 for sub-adult gray snapper and 17164.8 for sub-adult bluestriped grunt.
+IF_d####,IF_d####_p0.05,Interaction Flux local connectivity value of the node in which this site falls in the species' minimum planar graph where #### represents the equivalent of the species' 15 kilometer maximum dispersal distance in cost units; 150716.0 for sub-adult gray snapper and 96128.0 for sub-adult bluestriped grunt.
