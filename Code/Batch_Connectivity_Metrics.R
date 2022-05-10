@@ -149,7 +149,6 @@ lg_if_rank = lg_if %>%
   select(Species, Site, Selected_I, LON_M, LAT_M, Id, 
          IF_d2576, IF_d7852, IF_d1507) %>%
   rename(Selected_Iconic_Reef = Selected_I,
-         Node_ID = Id,
          IF_5km = IF_d2576,
          IF_10km = IF_d7852,
          IF_15km = IF_d1507) %>%
@@ -157,14 +156,13 @@ lg_if_rank = lg_if %>%
          Rank_10km = dense_rank(desc(IF_10km)),
          Rank_15km = dense_rank(desc(IF_15km))) %>%
   select(Species, Site, Selected_Iconic_Reef, LON_M, LAT_M,
-         Node_ID, IF_5km, Rank_5km, IF_10km, Rank_10km,
+         Id, IF_5km, Rank_5km, IF_10km, Rank_10km,
          IF_15km, Rank_15km)
 
 hs_if_rank = hs_if %>%
   select(Species, Site, Selected_I, LON_M, LAT_M, Id, 
          IF_d1716, IF_d5089, IF_d9612) %>%
   rename(Selected_Iconic_Reef = Selected_I,
-         Node_ID = Id,
          IF_5km = IF_d1716,
          IF_10km = IF_d5089,
          IF_15km = IF_d9612) %>%
@@ -172,7 +170,7 @@ hs_if_rank = hs_if %>%
          Rank_10km = dense_rank(desc(IF_10km)),
          Rank_15km = dense_rank(desc(IF_15km))) %>%
   select(Species, Site, Selected_Iconic_Reef, LON_M, LAT_M,
-         Node_ID, IF_5km, Rank_5km, IF_10km, Rank_10km,
+         Id, IF_5km, Rank_5km, IF_10km, Rank_10km,
          IF_15km, Rank_15km)
 
 # combine IF data from both species
