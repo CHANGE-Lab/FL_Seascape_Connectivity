@@ -1,3 +1,21 @@
+#### DESCRIPTION ####
+# This script is part of Courtney Stuart's second MSc Chapter in the Lab of 
+# Dr. Stephanie Green at the University of Alberta (2019-2021). This script uses
+# habitat data from Courtney's first data chapter (derived from the Unified 
+# Florida Reef Map) to produce a raster data layer where each cell stores the 
+# Euclidean distance from that location to the nearest continuous seagrass patch.
+# This raster, along with one storing Euclidean distances to nearest mangrove 
+# habitat cell created during Ch1, will be used to evaluate how proximity to 
+# nursery habitats influences potential functional connectivity for sub-adult 
+# gray snapper (Lutjanus griseus) and bluestriped grunt (Haemulon sciurus) occupying
+# the spatially heterogeneous study seascape in the Florida Keys, USA. 
+
+#### PUBLICATION ####
+# For more information about data products and processing in MSc chapter one, read:
+# Stuart, C. E., Wedding, L. M., Pittman, S. J., & Green, S. J. (2021). Habitat 
+# Suitability Modeling to Inform Seascape Connectivity Conservation and Management. 
+# Diversity, 13(10), 465.
+
 #### SET-UP ####
 # working directory
 setwd("Z:/Courtney/Stuart_MSc_Ch2/") # main project folder
@@ -95,6 +113,11 @@ png(file = paste0(temp_wd, "PC_Global_No_Legend.png"),
 pc_plot
 dev.off()
 
+png(file = paste0(temp_wd, "PC_Global_No_Legend_5x3.png"),
+    res = 450,  width = 5, height = 3, units = "in")
+pc_plot
+dev.off()
+
 # plot global EC
 # add three vertical lines per species to indicate potential dispersal thresholds
 # a lower estimate (5 km Euclidean dispersal limit)
@@ -128,6 +151,11 @@ ec_plot
 # save EC plot
 png(file = paste0(temp_wd, "EC_Global_No_Legend.png"),
     res = 450,  width = 6, height = 4.5, units = "in")
+ec_plot
+dev.off()
+
+png(file = paste0(temp_wd, "EC_Global_No_Legend_5x3.png"),
+    res = 450,  width = 5, height = 3, units = "in")
 ec_plot
 dev.off()
 
