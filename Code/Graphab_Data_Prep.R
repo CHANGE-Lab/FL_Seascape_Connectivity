@@ -1,25 +1,32 @@
 #### DESCRIPTION ####
-# This script is part of Courtney Stuart's second MSc Chapter in the Lab of 
+# This script is part of Courtney Stuart's second MSc data chapter in the lab of 
 # Dr. Stephanie Green at the University of Alberta (2019-2021). This script 
-# leverages previously constructed (data chapter one) MaxEnt habitat suitability 
-# models (HSMs) for ecological connectivity modeling. These HSMs are specific
-# to sub-adult gray snapper (Lutjanus griseus) and bluestriped grunt (Haemulon 
-# sciurus) in the Florida Keys, USA, and were constructed using spatially 
-# explicit raster data layers of benthic habitat composition and configuration,
-# bathymetry and seafloor surface morphology, and seasonal water conditions. 
-# These continuous HSMs will be discretized to produce binary HSMs (suitable 
-# habitat vs. matrix), and inverted to produce resistance surfaces, for 
-# ecological connectivity modeling using a graph-theoretic approach (via Graphab).
+# leverages previously constructed (data chapter one) MaxEnt habitat suitability
+# models (HSMs) for ecological connectivity modeling. These HSMs are specific to 
+# sub-adult gray snapper (Lutjanus griseus) and bluestriped grunt (Haemulon 
+# sciurus) in the Florida Keys, USA. HSMs were constructed using species occurrence
+# records from reef fish surveys and spatially explicit data layers of benthic 
+# habitat composition and configuration, bathymetry and seafloor surface morphology,
+# and seasonal water conditions.These continuous HSMs will be discretized to 
+# produce binary HSMs (suitable habitat vs. matrix), and converted to resistance 
+# surfaces using a negative exponential transformation function, for ecological 
+# connectivity modeling using a graph-theoretic approach (via Graphab).
 
-#### PUBLICATION ####
+#### ASSOCIATED PUBLICATIONS ####
 # For further information on the HSMs, spatial predictors, and/or reef fish
 # occurrence records used in this research, read:
+
 # Stuart, C. E., Wedding, L. M., Pittman, S. J., & Green, S. J. (2021). Habitat 
 # Suitability Modeling to Inform Seascape Connectivity Conservation and Management. 
 # Diversity, 13(10), 465.
 
+# Stuart, C. E., Wedding, L. M., Pittman, S. J., Serafy, J. E., Moura, A., & 
+# Green, S. J. (2022). Seascape connectivity modeling reveals potential hotspots of 
+# fish-derived nutrient provisioning to restored coral reefs. Marine Ecology 
+# Progress Series (in review).
+
 #### CONTACT ####
-# Courtney Stuart (cestuart@ualberta.ca)
+# Courtney Stuart (courtney.e.stuart@gmail.com OR courtney.stuart@mansfield.ox.ac.uk)
 
 #### SET-UP ####
 # working directory

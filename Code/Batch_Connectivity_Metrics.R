@@ -1,5 +1,5 @@
 #### DESCRIPTION ####
-# This script is part of Courtney Stuart's second MSc Chapter in the Lab of 
+# This script is part of Courtney Stuart's second MSc data chapter in the lab of 
 # Dr. Stephanie Green at the University of Alberta (2019-2021). This script uses
 # habitat data from Courtney's first data chapter (derived from the Unified 
 # Florida Reef Map) to produce a raster data layer where each cell stores the 
@@ -7,14 +7,24 @@
 # This raster, along with one storing Euclidean distances to nearest mangrove 
 # habitat cell created during Ch1, will be used to evaluate how proximity to 
 # nursery habitats influences potential functional connectivity for sub-adult 
-# gray snapper (Lutjanus griseus) and bluestriped grunt (Haemulon sciurus) occupying
-# the spatially heterogeneous study seascape in the Florida Keys, USA. 
+# gray snapper (Lutjanus griseus) and bluestriped grunt (Haemulon sciurus) 
+# occupying a spatially heterogeneous study seascape in the Florida Keys, USA. 
 
-#### PUBLICATION ####
-# For more information about data products and processing in MSc chapter one, read:
+#### ASSOCIATED PUBLICATIONS ####
+# For further information on the HSMs, spatial predictors, and/or reef fish
+# occurrence records used in this research, read:
+
 # Stuart, C. E., Wedding, L. M., Pittman, S. J., & Green, S. J. (2021). Habitat 
 # Suitability Modeling to Inform Seascape Connectivity Conservation and Management. 
 # Diversity, 13(10), 465.
+
+# Stuart, C. E., Wedding, L. M., Pittman, S. J., Serafy, J. E., Moura, A., & 
+# Green, S. J. (2022). Seascape connectivity modeling reveals potential hotspots of 
+# fish-derived nutrient provisioning to restored coral reefs. Marine Ecology 
+# Progress Series (in review).
+
+#### CONTACT ####
+# Courtney Stuart (courtney.e.stuart@gmail.com OR courtney.stuart@mansfield.ox.ac.uk)
 
 #### SET-UP ####
 # working directory
