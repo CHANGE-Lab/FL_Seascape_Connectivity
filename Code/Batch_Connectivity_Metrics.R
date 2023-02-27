@@ -18,10 +18,10 @@
 # Suitability Modeling to Inform Seascape Connectivity Conservation and Management. 
 # Diversity, 13(10), 465.
 
-# Stuart, C. E., Wedding, L. M., Pittman, S. J., Serafy, J. E., Moura, A., & 
-# Green, S. J. (2022). Seascape connectivity modeling reveals potential hotspots of 
-# fish-derived nutrient provisioning to restored coral reefs. Marine Ecology 
-# Progress Series (in review).
+# Stuart, C. E., Wedding, L. M., Pittman, S. J., Serafy, J. E., Moura, A., 
+# Bruckner, A.W., & Green, S. J. (2023). Seascape connectivity modeling predicts
+# potential hotspots of fish-derived nutrient provisioning to restored coral reefs.
+# Marine Ecology Progress Series.
 
 #### CONTACT ####
 # Courtney Stuart (courtney.e.stuart@gmail.com OR courtney.stuart@mansfield.ox.ac.uk)
